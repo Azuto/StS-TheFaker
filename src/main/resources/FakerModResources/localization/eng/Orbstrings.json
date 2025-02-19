@@ -1,0 +1,9 @@
+{
+  "${ModID}:AP": {
+    "NAME": "AP",
+    "DESCRIPTION": [
+      "#yAP is a resource required for certain cards. ",
+      "Each time you spend AP, draw 1."
+    ]
+  }
+}

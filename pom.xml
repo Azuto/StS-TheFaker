@@ -3,11 +3,19 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>UnimportantInfo</groupId>
 
-    <artifactId>TheTodo</artifactId>
-    <version>0.0.1</version>
-    <name>The Todo</name>
-    <description>TODO: Change this description</description>
-    <!-- Change the above for mod information. -->
+    <artifactId>TheFaker</artifactId>
+    <version>1.0.0</version>
+    <name>The Faker</name>
+    <description>Adds Emiya Shirou from Fate as a playable character.
+
+Art assets originate from:
+- Fate/Stay Night visual novel
+- Fate/Unlimited Blade Works movie and anime series
+- Fate/kaleid liner Prisma Illya: Oath Under Snow movie
+- Today's Menu for the Emiya Family anime series
+- Fate/Grand Order mobile game.
+- @Nameless190247 (X/Twitter)
+- 田子屋きよ (pixiv)</description>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -15,13 +23,10 @@
         <maven.compiler.target>1.8</maven.compiler.target>
         <SlayTheSpire.version>12-22-2020</SlayTheSpire.version>
         <ModTheSpire.version>3.18.2</ModTheSpire.version>
-
-        <!-- CHANGE THIS TO MATCH YOUR MODID FIELD IN THE MAIN TodoMod CLASS FILE -->
-        <ModID>todomod</ModID>
-        <!-- CHANGE THIS TO MATCH YOUR MODID FIELD IN THE MAIN TodoMod CLASS FILE -->
+        <ModID>FakerMod</ModID>
 
         <!--CHANGE THIS TO YOUR STEAM INSTALLATION-->
-        <Steam.path>C:/Program Files (x86)/Steam/steamapps/</Steam.path>
+        <Steam.path>G:/SteamLibrary/steamapps/</Steam.path>
 
     </properties>
 
