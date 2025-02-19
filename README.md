@@ -11,4 +11,4 @@ Sitting at 100+ cards it features multiple new mechanics including but not limit
 - Melee/Range: Two stances with complementary effects
 - ...and more e.g. Echo, Endurance, Magic Circuits, Reality Marble, True Damage...
 - Full content: https://docs.google.com/spreadsheets/d/17W0CJxNTdeWu1sGtybDUGhs0X186aI2OV16iOyGpD5o
-- Github: 
+- Github: https://github.com/Azuto/StS-TheFaker
