@@ -273,7 +273,7 @@
 
   "${ModID}:Archery": {
     "NAME": "Archery",
-    "DESCRIPTION": "Whenever you defeat an enemy with a Ranged attack, heal !M!."
+    "DESCRIPTION": "Whenever play !M! Ranged attacks this turn, heal !${ModID}:m2!."
   },
   "${ModID}:Avalon": {
     "NAME": "Avalon",
@@ -355,8 +355,8 @@
   },
   "${ModID}:IndependentAction": {
     "NAME": "Independent Action",
-    "DESCRIPTION": "Enter fakermod:Melee. NL Half your HP. Heal 50% of the damage dealt with fakermod:Melee attacks for this turn. NL Exhaust.",
-    "UPGRADE_DESCRIPTION": "Enter fakermod:Melee. NL Half your HP. Heal 50% of the damage dealt with fakermod:Melee attacks for !M! turns. NL Exhaust."
+    "DESCRIPTION": "Half your HP. Heal 50% of the damage dealt with fakermod:Melee attacks for this turn. NL Enter fakermod:Melee. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Half your HP. Heal 50% of the damage dealt with fakermod:Melee attacks for !M! turns. Enter fakermod:Melee. NL Exhaust."
   },
   "${ModID}:LastStand": {
     "NAME": "Last Stand",
@@ -395,7 +395,7 @@
   },
   "${ModID}:MindsEye": {
     "NAME": "Mind's Eye",
-    "DESCRIPTION": "Enter fakermod:Range. NL Add a card from your draw pile to your hand. NL Exhaust.",
+    "DESCRIPTION": "Add a card from your draw pile to your hand. NL Enter fakermod:Range. NL Exhaust.",
     "UPGRADE_DESCRIPTION": "Enter fakermod:Range. NL Add a card from your draw pile to your hand."
   },
   "${ModID}:MyoujingiriMuramasa": {

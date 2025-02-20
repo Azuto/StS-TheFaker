@@ -2,7 +2,9 @@
   "${ModID}:ArcheryPower": {
     "NAME": "Archery",
     "DESCRIPTIONS": [
-      "Whenever you defeat an enemy with a Ranged attack, heal !M!."
+      "When you play #b",
+      " Ranged attack, heal #b",
+      " Ranged attacks, heal #b"
     ]
   },
   "${ModID}:ArtsPower": {

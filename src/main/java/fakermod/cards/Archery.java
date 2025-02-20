@@ -12,15 +12,16 @@ public class Archery extends AbstractEasyCard {
  
     public Archery() {
         super(ID, 1, CardType.POWER, CardRarity.UNCOMMON, CardTarget.NONE);
-        baseMagicNumber = magicNumber = 4;
+        baseMagicNumber = magicNumber = 3;
+        baseSecondMagic = secondMagic = 4;
     }
 
     public void use(AbstractPlayer p, AbstractMonster m) {
-        this.addToBot(new ApplyPowerAction(p, p, new ArcheryPower(p, magicNumber)));
+        this.addToBot(new ApplyPowerAction(p, p, new ArcheryPower(p, magicNumber, secondMagic)));
     }
 
     @Override
     public void upp() {
-        upgradeMagicNumber(2);
+        upgradeSecondMagic(2);
     }
 }

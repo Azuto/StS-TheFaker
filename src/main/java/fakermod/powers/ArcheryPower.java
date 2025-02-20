@@ -6,11 +6,11 @@ import com.badlogic.gdx.graphics.g2d.TextureAtlas;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.core.AbstractCreature;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.localization.PowerStrings;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.powers.AbstractPower;
 import fakermod.ModFile;
-import fakermod.actions.ArcheryAction;
 import fakermod.tags.customTag;
 import fakermod.util.TexLoader;
 
@@ -20,14 +20,16 @@ public class ArcheryPower extends AbstractPower implements CloneablePowerInterfa
     public static final String NAME = powerStrings.NAME;
     public static final String[] DESCRIPTIONS = powerStrings.DESCRIPTIONS;
 
+    private int healAmt;
 
-    public ArcheryPower(final AbstractCreature owner, final int amount) {
+    public ArcheryPower(final AbstractCreature owner, final int amount, int healAmt) {
         ID = POWER_ID;
         name = NAME;
         type = PowerType.BUFF;
 
         this.owner = owner;
         this.amount = amount;
+        this.healAmt = healAmt;
 
         Texture normalTexture = TexLoader.getTexture(ModFile.modID + "Resources/images/powers/" + ID.replaceAll(ModFile.modID + ":", "") + "32.png");
         Texture hiDefImage = TexLoader.getTexture(ModFile.modID + "Resources/images/powers/" + ID.replaceAll(ModFile.modID + ":", "") + "84.png");
@@ -45,19 +47,30 @@ public class ArcheryPower extends AbstractPower implements CloneablePowerInterfa
     }
 
     @Override
+    public void atStartOfTurn() {
+        amount = 3;
+    }
+
+    @Override
     public void onPlayCard(AbstractCard card, AbstractMonster m) {
         if (card.hasTag(customTag.RANGED)) {
-            this.addToBot(new ArcheryAction(m, this.amount));
+            amount--;
+        }
+
+        if (amount <= 0)  {
+            AbstractDungeon.player.heal(healAmt);
+            amount = 3;
         }
     }
 
     @Override
     public void updateDescription() {
-        this.description = DESCRIPTIONS[0];
+        this.description = DESCRIPTIONS[0] + this.amount + (this.amount == 1 ? DESCRIPTIONS[1] + this.healAmt : DESCRIPTIONS[2] + healAmt);
+
     }
 
     @Override
     public AbstractPower makeCopy() {
-        return new ArcheryPower(owner, amount);
+        return new ArcheryPower(owner, amount, healAmt);
     }
 }
