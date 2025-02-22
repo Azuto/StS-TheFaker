@@ -22,7 +22,7 @@ public class ArcheryPower extends AbstractPower implements CloneablePowerInterfa
 
     private int healAmt;
 
-    public ArcheryPower(final AbstractCreature owner, final int amount, int healAmt) {
+    public ArcheryPower(final AbstractCreature owner, final int amount, final int healAmt) {
         ID = POWER_ID;
         name = NAME;
         type = PowerType.BUFF;
@@ -47,25 +47,32 @@ public class ArcheryPower extends AbstractPower implements CloneablePowerInterfa
     }
 
     @Override
+    public void stackPower(int stackAmount) {
+        this.amount = Math.min(this.amount + stackAmount, 3);
+        this.healAmt += stackAmount;
+        updateDescription();
+    }
+
+    @Override
     public void atStartOfTurn() {
-        amount = 3;
+        this.amount = 3;
     }
 
     @Override
     public void onPlayCard(AbstractCard card, AbstractMonster m) {
         if (card.hasTag(customTag.RANGED)) {
-            amount--;
+            this.amount--;
         }
 
-        if (amount <= 0)  {
-            AbstractDungeon.player.heal(healAmt);
-            amount = 3;
+        if (this.amount <= 0)  {
+            AbstractDungeon.player.heal(this.healAmt);
+            this.amount = 3;
         }
     }
 
     @Override
     public void updateDescription() {
-        this.description = DESCRIPTIONS[0] + this.amount + (this.amount == 1 ? DESCRIPTIONS[1] + this.healAmt : DESCRIPTIONS[2] + healAmt);
+        this.description = DESCRIPTIONS[0] + this.amount + (this.amount == 1 ? DESCRIPTIONS[1] + this.healAmt : DESCRIPTIONS[2] + this.healAmt);
 
     }
 

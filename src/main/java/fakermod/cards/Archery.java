@@ -13,7 +13,7 @@ public class Archery extends AbstractEasyCard {
     public Archery() {
         super(ID, 1, CardType.POWER, CardRarity.UNCOMMON, CardTarget.NONE);
         baseMagicNumber = magicNumber = 3;
-        baseSecondMagic = secondMagic = 4;
+        baseSecondMagic = secondMagic = 3;
     }
 
     public void use(AbstractPlayer p, AbstractMonster m) {

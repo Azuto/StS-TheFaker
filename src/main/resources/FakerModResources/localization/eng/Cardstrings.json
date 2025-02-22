@@ -273,7 +273,7 @@
 
   "${ModID}:Archery": {
     "NAME": "Archery",
-    "DESCRIPTION": "Whenever play !M! Ranged attacks this turn, heal !${ModID}:m2!."
+    "DESCRIPTION": "Whenever you play !M! Ranged attacks this turn, heal !${ModID}:m2!."
   },
   "${ModID}:Avalon": {
     "NAME": "Avalon",

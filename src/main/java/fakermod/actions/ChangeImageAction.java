@@ -22,6 +22,8 @@ public class ChangeImageAction extends AbstractGameAction {
         textureMap.put("UNBROKEN", ModFile.FAKER_UNBROKEN);
         textureMap.put("ARCHER", ModFile.ARCHER);
         textureMap.put("ARCHER2", ModFile.ARCHER2);
+        textureMap.put("ARCHER_SERVANT", ModFile.ARCHER_SERVANT);
+        textureMap.put("ARCHER_SERVANT2", ModFile.ARCHER_SERVANT2);
         textureMap.put("MURAMASA", ModFile.MURAMASA);
         textureMap.put("MURAMASA2", ModFile.MURAMASA2);
         textureMap.put("MURAMASA_SERVANT", ModFile.MURAMASA_SERVANT);
