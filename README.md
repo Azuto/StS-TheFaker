@@ -1,9 +1,9 @@
 Slay the Spire - The Faker
 
-This is a mod based on Emiya Shirou from the Fate/Stay Night.
+This is a mod based on a certain protagonist from a certain franchise.
 I like forcing builds, so this mod features cards where that, without compromising on variety, is encouraged.
 
-Sitting currently at 101 cards, 4 relics, 1 event and 2 elite monsters it features multiple new mechanics including:
+Currently featuring 101 cards, 4 relics, 1 event, and 2 elite monsters, this mod introduces new mechanics, such as:
 - Commands: Basic cards that apply bonus effects when it is the first played card
 - Projections: Cards that do not start in your deck but can be accessed to during battle
 - Incantation: One card that will gradually become stronger the more often it is used per battle
