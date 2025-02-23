@@ -21,7 +21,7 @@ public class LinkShot extends AbstractEasyCard {
     public LinkShot() {
         super(ID, 1, CardType.ATTACK, CardRarity.COMMON, CardTarget.ENEMY);
         baseDamage = 9;
-        baseMagicNumber = magicNumber = 2;
+        baseMagicNumber = magicNumber = 3;
         tags.add(customTag.RANGED);
     }
 
@@ -65,6 +65,6 @@ public class LinkShot extends AbstractEasyCard {
 
     @Override
     public void upp() {
-        upgradeMagicNumber(1);
+        upgradeBaseCost(0);
     }
 }

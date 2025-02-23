@@ -13,7 +13,7 @@ public class MetalShield extends AbstractEasyCard {
 
     public MetalShield() {
         super(ID, 1, CardType.SKILL, CardRarity.COMMON, CardTarget.SELF);
-        baseBlock = block = 20;
+        baseBlock = block = 23;
     }
 
     @Override
@@ -37,6 +37,6 @@ public class MetalShield extends AbstractEasyCard {
     }
 
     public void upp() {
-        upgradeBaseCost(0);
+        upgradeDamage(7);
     }
 }

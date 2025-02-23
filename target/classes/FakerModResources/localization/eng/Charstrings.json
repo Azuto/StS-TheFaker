@@ -1,0 +1,17 @@
+{
+  "FakerMod:ModdedCharacter": {
+    "NAMES": [
+      "The Faker",
+      "the Faker",
+      "The Hero of Justice",
+      "the Hero of Justice",
+      "The Smith",
+      "the Smith"
+    ],
+    "TEXT": [
+      "A young man who strives to become a Hero of Justice. NL Conflicted between ideals and hypocrisy, only one [#FF0000]Fate[] awaits as he steps into the Spire.",
+      "NL You TOUCH the heart.",
+      "Navigating an unlit street, you come across several hooded figures in the midst of some dark ritual. As you approach, they turn to you in eerie unison. The tallest among them bares fanged teeth and extends a long, pale hand towards you. NL ~\"Join~ ~us~ ~TODO:~ ~one,~ ~and~ ~feel~ ~the~ ~warmth~ ~of~ ~the~ ~Spire.\"~"
+    ]
+  }
+}

@@ -20,7 +20,7 @@ public class ProjectedCaliburn extends AbstractEasyCard {
 
     public ProjectedCaliburn() {
         super(ID, 1, CardType.ATTACK, CardRarity.SPECIAL, CardTarget.ENEMY, CharacterFile.Enums.FAKERP_COLOR);
-        baseDamage = 20;
+        baseDamage = 25;
         baseMagicNumber = magicNumber = 1;
         purgeOnUse = true;
         tags.add(customTag.PROJECTION);

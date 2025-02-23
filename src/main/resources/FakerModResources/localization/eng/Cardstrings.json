@@ -37,7 +37,7 @@
   },
   "${ModID}:ExtraAttack": {
     "NAME": "Extra Attack",
-    "DESCRIPTION": "Ethereal. NL Deal !D! damage. NL fakermod:Purge."
+    "DESCRIPTION": "Ethereal. NL Deal !D! damage. NL Gain !M! of Dexterity and Strength. NL fakermod:Purge."
   },
   "${ModID}:GradationAir": {
     "NAME": "Gradation Air",
@@ -172,7 +172,7 @@
 },
   "${ModID}:ProjectedCaliburn": {
     "NAME": "Caliburn",
-    "DESCRIPTION": "fakermod:Projected. NL Deal !D! damage. NL Gain !M! Vulnerable.",
+    "DESCRIPTION": "fakermod:Projected. NL Deal !D! damage. NL Gain !M! Frail.",
     "UPGRADE_DESCRIPTION": "fakermod:Projected. NL Deal !D! damage."
   },
   "${ModID}:ProjectedExcalibur": {
@@ -294,7 +294,7 @@
   },
   "${ModID}:Caliburn": {
     "NAME": "Caliburn",
-    "DESCRIPTION": "Deal !D! damage. NL If you don't have fakermod:Saber, gain !M! Frail then exhaust."
+    "DESCRIPTION": "Deal !D! damage. NL If you don't have fakermod:Saber, exhaust."
   },
   "${ModID}:CursedKatana": {
     "NAME": "Cursed Katana",
@@ -323,7 +323,8 @@
   },
   "${ModID}:GlassHeart": {
     "NAME": "Glass Heart",
-    "DESCRIPTION": "Gain 2 Strength and NL !M! Frail."
+    "DESCRIPTION": "Gain ${ModID}:m2! of Strength and Frail.",
+    "UPGRADE_DESCRIPTION": "Gain ${ModID}:m2! Strength."
   },
   "${ModID}:Incantation": {
     "NAME": "Incantation",
@@ -414,7 +415,7 @@
   },
   "${ModID}:PaperShield": {
     "NAME": "Paper Shield",
-    "DESCRIPTION": "Gain !B! Block. NL Gain !M! Vulnerable. Exhaust."
+    "DESCRIPTION": "Gain !B! Block. Exhaust."
   },
   "${ModID}:PaperSword": {
     "NAME": "Paper Sword",

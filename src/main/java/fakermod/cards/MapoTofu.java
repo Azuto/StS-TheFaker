@@ -13,7 +13,7 @@ public class MapoTofu extends AbstractEasyCard {
 
     public MapoTofu() {
         super(ID, 1, CardType.SKILL, CardRarity.UNCOMMON, CardTarget.NONE);
-        baseMagicNumber = magicNumber = 6;
+        baseMagicNumber = magicNumber = 7;
         isEthereal = true;
     }
 

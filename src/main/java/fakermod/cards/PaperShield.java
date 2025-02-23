@@ -20,7 +20,6 @@ public class PaperShield extends AbstractEasyCard {
 
     public void use(AbstractPlayer p, AbstractMonster m) {
         this.addToBot(new GainBlockAction(p, p, block));
-        this.addToBot(new ApplyPowerAction(p, p, new VulnerablePower(p, magicNumber, false)));
     }
 
     public void upp() {

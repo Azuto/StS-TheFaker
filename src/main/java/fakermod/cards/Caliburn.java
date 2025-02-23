@@ -20,7 +20,7 @@ public class Caliburn extends AbstractEasyCard {
 
     public Caliburn() {
         super(ID, 1, CardType.ATTACK, CardRarity.RARE, CardTarget.ENEMY);
-        baseDamage = 20;
+        baseDamage = 30;
         baseMagicNumber = magicNumber = 2;
         cardsToPreview = new SummonSaber();
         tags.add(customTag.PROJECTION);
@@ -31,7 +31,6 @@ public class Caliburn extends AbstractEasyCard {
     public void use(AbstractPlayer p, AbstractMonster m) {
         if (AbstractDungeon.player != null && !AbstractDungeon.player.hasPower("FakerMod:SummonSaberPower")) {
             this.exhaustOnUseOnce = true;
-            this.addToBot(new ApplyPowerAction(p, p, new FrailPower(p, magicNumber, false), magicNumber));
         }
         this.addToBot(new DamageAction(m, new DamageInfo(p, damage, damageTypeForTurn), AbstractGameAction.AttackEffect.SLASH_HEAVY));
     }

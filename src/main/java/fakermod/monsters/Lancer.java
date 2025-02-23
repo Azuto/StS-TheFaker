@@ -130,7 +130,7 @@ public class Lancer extends AbstractMonster {
             case MULTI_THRUST:
                 this.addToBot(new TalkAction(this, "Too slow"));
                 for (int i = 0; i < MULTI_THRUST_TIMES; i++) {
-                    this.addToBot(new DamageAction(AbstractDungeon.player, this.damage.get(0)));
+                    this.addToBot(new DamageAction(AbstractDungeon.player, this.damage.get(1)));
                 }
                 break;
 

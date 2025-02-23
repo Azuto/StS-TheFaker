@@ -13,11 +13,12 @@ public class GlassHeart extends AbstractEasyCard {
  
     public GlassHeart() {
         super(ID, 1, CardType.POWER, CardRarity.COMMON, CardTarget.SELF);
-        baseMagicNumber = magicNumber = 4;
+        baseMagicNumber = magicNumber = 2;
+        baseSecondMagic = secondMagic = 2;
     }
 
     public void use(AbstractPlayer p, AbstractMonster m) {
-        this.addToBot(new ApplyPowerAction(p, p, new StrengthPower(p, 2), 2));
+        this.addToBot(new ApplyPowerAction(p, p, new StrengthPower(p, secondMagic), secondMagic));
         this.addToBot(new ApplyPowerAction(p, p, new FrailPower(p, magicNumber, false), magicNumber));
     }
 

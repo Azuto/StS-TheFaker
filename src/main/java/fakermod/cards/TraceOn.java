@@ -18,7 +18,7 @@ public class TraceOn extends AbstractEasyCard {
     public static final String[] EXTENDED_DESCRIPTION = cardStrings.EXTENDED_DESCRIPTION;
 
     public TraceOn() {
-        super(ID, 1, CardType.SKILL, CardRarity.UNCOMMON, CardTarget.NONE);
+        super(ID, 0, CardType.SKILL, CardRarity.UNCOMMON, CardTarget.NONE);
         baseMagicNumber = magicNumber = 1;
         cardsToPreview = new Trace();
     }

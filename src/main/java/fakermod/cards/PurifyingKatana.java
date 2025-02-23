@@ -18,7 +18,7 @@ public class PurifyingKatana extends AbstractEasyCard {
     public final static String ID = makeID("PurifyingKatana");
 
     public PurifyingKatana() {
-        super(ID, 2, CardType.ATTACK, CardRarity.UNCOMMON, CardTarget.ENEMY);
+        super(ID, 1, CardType.ATTACK, CardRarity.UNCOMMON, CardTarget.ENEMY);
         baseDamage = damage = 7;
         tags.add(customTag.RANGED);
     }
@@ -50,6 +50,6 @@ public class PurifyingKatana extends AbstractEasyCard {
     }
 
     public void upp() {
-            upgradeBaseCost(1);
+            upgradeBaseCost(0);
             }
 }
