@@ -67,7 +67,7 @@
   },
   "${ModID}:MindOfSteel": {
     "NAME": "Mind of Steel",
-    "DESCRIPTION": "Unplayable. NL When drawn, fakermod:echo *Ideal *White. Replace all *Trace with *Trace *Alter then fakermod:purge."
+    "DESCRIPTION": "Unplayable. NL When drawn, fakermod:echo *ideal *white. Replace all *Trace with *Trace *Alter then fakermod:purge."
   },
   "${ModID}:Resolution": {
     "NAME": "Resolution",

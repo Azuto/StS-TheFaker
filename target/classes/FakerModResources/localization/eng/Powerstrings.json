@@ -1,0 +1,194 @@
+{
+  "FakerMod:ArcheryPower": {
+    "NAME": "Archery",
+    "DESCRIPTIONS": [
+      "When you play #b",
+      " Ranged attack, heal #b",
+      " Ranged attacks, heal #b"
+    ]
+  },
+  "FakerMod:ArtsPower": {
+    "NAME": "Arts Bonus",
+    "DESCRIPTIONS": [
+      "Gain #b",
+      " additional [E] next turn."
+    ]
+  },
+  "FakerMod:AvalonPower": {
+    "NAME": "Avalon",
+    "DESCRIPTIONS": [
+      "Negate ALL damage this turn."
+    ]
+  },
+  "FakerMod:BusterPower": {
+    "NAME": "Buster Bonus",
+    "DESCRIPTIONS": [
+      "Until end of turn, attacks deal #b",
+      " additional damage."
+    ]
+  },
+  "FakerMod:CharismaPower": {
+    "NAME": "Charisma",
+    "DESCRIPTIONS": [
+      "Attacks deal #b",
+      " more damage. NL #b",
+      " turn left.",
+      " turns left."
+    ]
+  },
+  "FakerMod:ChivalryPower": {
+    "NAME": "Chivalry",
+    "DESCRIPTIONS": [
+      "When you play a #ySaber card, gain #b",
+      " #yPlated #yArmor."
+    ]
+  },
+  "FakerMod:DisillusionPower": {
+    "NAME": "Energize",
+    "DESCRIPTIONS": [
+      "At the start of your turn, NL gain [E]"
+    ]
+  },
+  "FakerMod:IdealWhitePower": {
+    "NAME": "ideal white",
+    "DESCRIPTIONS": [
+      "At the start of your turn, gain [E] and draw #b1."
+    ]
+  },
+  "FakerMod:IncantationPower": {
+    "NAME": "Incantation Aria",
+    "DESCRIPTIONS": [
+      "Chant verse #b",
+      "You can now play #yUnlimited #yBlade #yWorks. Chant verse #b"
+    ]
+  },
+  "FakerMod:IndependentActionPower": {
+    "NAME": "Independent Action",
+    "DESCRIPTIONS": [
+      "#yMelee attacks heal #b50% of your damage dealt. NL #b",
+      " turn left.",
+      " turns left."
+    ]
+  },
+  "FakerMod:InstallArcherPower": {
+    "NAME": "Archer Install",
+    "DESCRIPTIONS": [
+      "#yEndurance. NL At the start of your turn, add #yGradation #yAir to your hand."
+    ]
+  },
+  "FakerMod:InstinctPower": {
+    "NAME": "Instinct",
+    "DESCRIPTIONS": [
+      "Your next attack deals double damage."
+    ]
+  },
+  "FakerMod:InvisibleAirPower": {
+    "NAME": "Invisible Air",
+    "DESCRIPTIONS": [
+      "Max orb slot protection. NL #b",
+      " turn left.",
+      " turns left."
+    ]
+  },
+  "FakerMod:LastStandPower": {
+    "NAME": "Last Stand",
+    "DESCRIPTIONS": [
+      "Strikes deal double damage. NL #b",
+      "Strikes deal triple damage. NL #b",
+      " turn left.",
+      " turns left."
+    ]
+  },
+  "FakerMod:ManaBurstPower": {
+    "NAME": "Mana Burst",
+    "DESCRIPTIONS": [
+      "Max orb slot(s) up. NL #b",
+      " turn left.",
+      " turns left."
+    ]
+  },
+  "FakerMod:ManaLinkPower": {
+    "NAME": "Mana Link",
+    "DESCRIPTIONS": [
+      "Max [E] up by #b",
+      " turn left.",
+      " turns left."
+    ]
+  },
+  "FakerMod:OriginBulletPower": {
+    "NAME": "Origin Shot",
+    "DESCRIPTIONS": [
+      "Shot by #yOrigin #yBullet."
+    ]
+  },
+  "FakerMod:QuickPower": {
+    "NAME": "Quick Bonus",
+    "DESCRIPTIONS": [
+      "Your first attack deals #b",
+      " additional damage this turn."
+    ]
+  },
+  "FakerMod:QuickPowerInactive": {
+    "NAME": "Quick Bonus",
+    "DESCRIPTIONS": [
+      "Next turn, your first attack deals #b",
+      " additional damage."
+    ]
+  },
+  "FakerMod:SummonSaberPower": {
+    "NAME": "Servant Saber",
+    "DESCRIPTIONS": [
+      "At the start of your turn, fill your Orb slots with #yAP and draw #b3. NL Taking attack damage will reduce Orb slots by #b1."
+    ]
+  },
+  "FakerMod:SwordBarrelPower": {
+    "NAME": "Sword Barrel",
+    "DESCRIPTIONS": [
+      "#yEndurance. NL When you play a Skill, #yproject #yBlade",
+      " #yDance",
+      " #yDance+"
+    ]
+  },
+  "FakerMod:TraceOnPower": {
+    "NAME": "Magic Circuits",
+    "DESCRIPTIONS": [
+      "#yTrace projects upgraded common cards.",
+      "(Scrollable UI) NL #yTrace projects common and uncommon cards.",
+      "(Scrollable UI) NL #yTrace projects upgraded common and uncommon cards.",
+      "(Scrollable UI) NL #yTrace projects common, uncommon, and rare cards.",
+      "(Scrollable UI) NL #yTrace projects upgraded common, uncommon, and rare cards."
+    ]
+  },
+  "FakerMod:TriggerOffPower": {
+    "NAME": "Trigger, Off",
+    "DESCRIPTIONS": [
+      "Whenever you play a #yProjection, gain #b1 #yMagic #yCircuits."
+    ]
+  },
+  "FakerMod:UBWAPower": {
+    "NAME": "Reality Marble",
+    "DESCRIPTIONS": [
+      "Whenever you play a non-projected Attack, #yproject a random card."
+    ]
+  },
+  "FakerMod:UBWBPower": {
+    "NAME": "Reality Marble",
+    "DESCRIPTIONS": [
+      "Whenever you play a #yprojected card, gain [E] and draw #b1."
+    ]
+  },
+  "FakerMod:UBWCPower": {
+    "NAME": "Reality Marble",
+    "DESCRIPTIONS": [
+      "Whenever you play a non-projected card, #yproject #yBlade #yDance."
+    ]
+  },
+  "FakerMod:WithstandPainPower": {
+    "NAME": "Withstand Pain",
+    "DESCRIPTIONS": [
+      "#yEndurance. NL Whenever you lose HP, #yproject",
+      " #ySword",
+      " #ySword+"
+    ]
+  }
+}

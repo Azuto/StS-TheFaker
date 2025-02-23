@@ -1,0 +1,25 @@
+{
+  "modid": "FakerMod",
+  "name": "The Faker",
+  "author_list": [
+    "Azuto"
+  ],
+  "description": "Adds Emiya Shirou from Fate as a playable character.
+
+Art assets originate from:
+- Fate/Stay Night visual novel
+- Fate/Unlimited Blade Works movie and anime series
+- Fate/kaleid liner Prisma Illya: Oath Under Snow movie
+- Today's Menu for the Emiya Family anime series
+- Fate/Grand Order mobile game.
+- @Nameless190247 (X/Twitter)
+- 田子屋きよ (pixiv)",
+  "version": "1.0.0",
+  "sts_version": "12-22-2020",
+  "mts_version": "3.18.2",
+  "dependencies": [
+    "basemod",
+    "stslib"
+  ]
+}
+

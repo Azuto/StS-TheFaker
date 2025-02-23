@@ -1,0 +1,493 @@
+{
+  "FakerMod:Strike": {
+    "NAME": " Strike ",
+    "DESCRIPTION": "Deal !D! damage."
+  },
+  "FakerMod:Defend": {
+    "NAME": " Defend ",
+    "DESCRIPTION": "Gain !B! Block."
+  },
+  "FakerMod:Arts": {
+    "NAME": "Arts",
+    "DESCRIPTION": "Deal !D! damage and gain !B! Block. NL NL fakermod:First_Command: NL Next turn, gain !M! [E]"
+  },
+  "FakerMod:Buster": {
+    "NAME": "Buster",
+    "DESCRIPTION": "NL Deal !D! damage. NL NL fakermod:First_Command: NL Attacks deal !M! more damage this turn."
+  },
+  "FakerMod:Quick": {
+    "NAME": "Quick",
+    "DESCRIPTION": "NL Deal !D! damage. NL NL fakermod:First_Command: NL Next turn, your first attack deals !FakerMod:m2! more damage."
+  },
+
+
+
+  "FakerMod:Arrival": {
+    "NAME": "Arrival",
+    "DESCRIPTION": "Unplayable. NL When drawn, gain NL !M! of Strength and Dexterity."
+  },
+  "FakerMod:BraveShine": {
+    "NAME": "Brave Shine",
+    "DESCRIPTION": "Unplayable. NL When drawn, NL gain [E] [E] NL fakermod:Echo *Incantation.",
+    "UPGRADE_DESCRIPTION": "Unplayable. NL When drawn, NL gain [E] [E] NL fakermod:Echo *Trace *On."
+  },
+  "FakerMod:Disillusion": {
+    "NAME": "disillusion",
+    "DESCRIPTION": "Gain !M! Dexterity. NL At the start of your turn, gain [E]"
+  },
+  "FakerMod:ExtraAttack": {
+    "NAME": "Extra Attack",
+    "DESCRIPTION": "Ethereal. NL Deal !D! damage. NL Gain !M! Dexterity. NL fakermod:Purge."
+  },
+  "FakerMod:GradationAir": {
+    "NAME": "Gradation Air",
+    "DESCRIPTION": "Ethereal. NL fakermod:Project a card. NL fakermod:Purge."
+  },
+  "FakerMod:Ideals": {
+    "NAME": "Ideals",
+    "DESCRIPTION": "Gain !M! Dexterity.",
+    "UPGRADE_DESCRIPTION": "Gain !M! Dexterity. NL fakermod:Alter into *Resolution."
+  },
+  "FakerMod:IdealWhite": {
+    "NAME": "ideal white",
+    "DESCRIPTION": "At the start of your turn, gain [E] NL and draw 1.",
+    "UPGRADE_DESCRIPTION": "At the start of your turn, gain [E] NL and draw 1. NL fakermod:Alter into *Mind *Of *Steel."
+  },
+  "FakerMod:InstallArcher": {
+    "NAME": "",
+    "DESCRIPTION": "Gain !M! fakermod:Endurance. NL NL Lose 3 Max HP. NL At the start of your turn, add *Gradation *Air to your hand. NL Retain.",
+    "EXTENDED_DESCRIPTION": [
+      "Install.",
+      "This would kill me."
+    ]
+  },
+  "FakerMod:LastStardust": {
+    "NAME": "Last Stardust",
+    "DESCRIPTION": "Unplayable. NL When drawn, gain NL !M! Strength and heal !FakerMod:m2!."
+  },
+  "FakerMod:MindOfSteel": {
+    "NAME": "Mind of Steel",
+    "DESCRIPTION": "Unplayable. NL When drawn, fakermod:echo *ideal *white. Replace all *Trace with *Trace *Alter then fakermod:purge."
+  },
+  "FakerMod:Resolution": {
+    "NAME": "Resolution",
+    "DESCRIPTION": "Gain !M! of Dexterity, Thorns and Artifact.",
+    "UPGRADE_DESCRIPTION": "Gain !M! of Dexterity, Thorns and Artifact. NL fakermod:Alter into *Arrival."
+  },
+  "FakerMod:TraceAlter": {
+    "NAME": "Trace Alter",
+    "DESCRIPTION": "fakermod:Project a card."
+  },
+  "FakerMod:TsumukariMuramasa": {
+    "NAME": "Tsumukari Muramasa",
+    "DESCRIPTION": "Deal !D! fakermod:true_damage to ALL enemies. NL Deal !M! more for every exhausted card this combat. NL Exhaust."
+  },
+  "FakerMod:UBW_A": {
+    "NAME": "Unlimited Blade Works",
+    "DESCRIPTION": "fakermod:Project NL *Unlimited *Blade *Burst. NL NL fakermod:Reality_Marble: Whenever you play non-projected Attack, fakermod:project a random 0-cost card. NL",
+    "EXTENDED_DESCRIPTION": [
+      "My whole life was Unlimited Blade Works!"
+    ]
+  },
+  "FakerMod:UBW_B": {
+    "NAME": "Unlimited Blade Works",
+    "DESCRIPTION": "fakermod:Project NL *Oath *Under *Snow. NL NL fakermod:Reality_Marble: Whenever you play a fakermod:projected card, NL draw 1 and gain [E] NL",
+    "EXTENDED_DESCRIPTION": [
+      "My whole body was still Unlimited Blade Works...!"
+    ]
+  },
+  "FakerMod:UBW_C": {
+    "NAME": "Unlimited Blade Works",
+    "DESCRIPTION": "fakermod:Project NL *Unlimited *Blade *Dance. NL NL fakermod:Reality_Marble: Whenever you play a non-projected card, fakermod:project *Blade *Dance. NL",
+    "EXTENDED_DESCRIPTION": [
+      "So as I pray, Unlimited Blade Works."
+    ]
+  },
+  "FakerMod:ULW": {
+    "NAME": "Unlimited Lost Works",
+    "DESCRIPTION": "Retain & fakermod:Projected. NL Only usable against *Origin *Bullet's target. Deal !D! fakermod:true_damage. Repeat for every card in your draw pile.",
+    "EXTENDED_DESCRIPTION": [
+      "So as I pray, Unlimited Lost Works...!"
+    ]
+  },
+
+
+  "FakerMod:Arrow": {
+    "NAME": "Arrow",
+    "DESCRIPTION": "fakermod:Projected & Ethereal. NL Deal !D! damage. NL Fatal, gain [E] and fakermod:project 1 *Arrow."
+  },
+  "FakerMod:BladeDance": {
+    "NAME": "Blade Dance",
+    "DESCRIPTION": "Ethereal & fakermod:Projected. NL Deal !D! damage randomly 1-3 times. NL Draw 1"
+  },
+  "FakerMod:Bow": {
+    "NAME": "Bow",
+    "DESCRIPTION": "fakermod:Projected. NL Gain !B! Block. NL fakermod:Project *Arrow.",
+    "UPGRADE_DESCRIPTION": "fakermod:Projected. NL Gain !B! Block. NL fakermod:Project [#78F200]Arrow+."
+  },
+  "FakerMod:Caladbolg": {
+    "NAME": "Caladbolg II",
+    "DESCRIPTION": "fakermod:Projected. NL Deal !D! damage to ALL enemies."
+  },
+  "FakerMod:Hrunting": {
+    "NAME": "Hrunting",
+    "DESCRIPTION": "fakermod:Projected. NL Deal !D! damage !M! times to random enemies."
+  },
+  "FakerMod:KanshouBakuya": {
+    "NAME": "Kanshou & Bakuya",
+    "DESCRIPTION": "fakermod:Projected. NL Deal !D! damage twice."
+  },
+  "FakerMod:KanshouBakuyaAlter": {
+    "NAME": "Kanshou & Bakuya\n         Alter",
+    "DESCRIPTION": "fakermod:Projected. NL Deal !D! damage twice. NL Enter fakermod:Melee."
+  },
+  "FakerMod:KanshouBakuyaCombined": {
+    "NAME": "Kanshou & Bakuya\n       Combined",
+    "DESCRIPTION": "fakermod:Projected. NL Deal !D! damage. NL Exit your Stance."
+  },
+  "FakerMod:KanshouBakuyaOveredge": {
+    "NAME": "Kanshou & Bakuya\n       Overedge",
+    "DESCRIPTION": "fakermod:Projected. NL Deal !D! damage twice. NL Deal !M! more damage for every *Kanshou [#efc851]& *Bakuya played this combat."
+  },
+  "FakerMod:KanshouBakuyaRevolver": {
+    "NAME": "Kanshou & Bakuya\n       Revolver",
+    "DESCRIPTION": "fakermod:Projected. NL Deal !D! damage twice. NL Enter fakermod:Range."
+  },
+  "FakerMod:Katana": {
+    "NAME": "Katana",
+    "DESCRIPTION": "fakermod:Projected. NL Deal !D! fakermod:true_damage. NL Exhaust."
+  },
+  "FakerMod:NineLives": {
+    "NAME": "Nine Lives",
+    "DESCRIPTION": "fakermod:Projected. NL Deal !D! damage 9 times."
+  },
+  "FakerMod:OathUnderSnow": {
+    "NAME": "Oath Under Snow",
+    "DESCRIPTION": "Retain & fakermod:Projected. NL Exhaust your draw pile. NL For every card in your exhaust pile, fakermod:project a *Blade *Dance in your draw pile then draw 1. NL End fakermod:Reality_Marble."
+  },
+  "FakerMod:OriginBullet": {
+  "NAME": "Origin Bullet",
+  "DESCRIPTION": "fakermod:Projected. NL fakermod:Echo *Incantation. NL Deal !D! damage. NL If you dealt unblocked damage, fakermod:project *Unlimited *Lost *Works.",
+  "UPGRADE_DESCRIPTION": "fakermod:Projected. NL fakermod:Echo *Incantation. Deal !D! damage. NL If you dealt unblocked damage, fakermod:project *Unlimited *Lost *Works+."
+},
+  "FakerMod:ProjectedCaliburn": {
+    "NAME": "Caliburn",
+    "DESCRIPTION": "fakermod:Projected. NL Deal !D! damage. NL Gain !M! Frail.",
+    "UPGRADE_DESCRIPTION": "fakermod:Projected. NL Deal !D! damage."
+  },
+  "FakerMod:ProjectedExcalibur": {
+    "NAME": "Excalibur",
+    "DESCRIPTION": "fakermod:Projected & Retain. NL Deal !D! damage to ALL enemies. NL If you don't have fakermod:Saber, die next turn."
+  },
+  "FakerMod:RhoAias": {
+    "NAME": "Rho Aias",
+    "DESCRIPTION": "fakermod:Projected. NL Gain !B! Block !M! times."
+  },
+  "FakerMod:RuleBreaker": {
+    "NAME": "Rule Breaker",
+    "DESCRIPTION": "fakermod:Projected. NL Deal !D! damage. NL Remove all Block and buffs from the non-boss target."
+  },
+  "FakerMod:Sword": {
+    "NAME": "Sword",
+    "DESCRIPTION": "fakermod:Projected. NL Deal !D! damage. NL Gain !B! Block."
+  },
+  "FakerMod:UnlimitedBladeBurst": {
+    "NAME": "Unlimited Blade Burst",
+    "DESCRIPTION": "Retain & fakermod:Projected. NL Deal !D! damage. NL Deal !M! more damage for every fakermod:projected card played this combat. NL End fakermod:Reality_Marble."
+  },
+  "FakerMod:UnlimitedBladeDance": {
+    "NAME": "Unlimited Blade Dance",
+    "DESCRIPTION": "Retain & fakermod:Projected. NL Deal !D! damage to ALL enemies randomly 5-10 times. NL End fakermod:Reality_Marble."
+  },
+
+
+
+
+
+  "FakerMod:Charisma": {
+    "NAME": "Charisma",
+    "DESCRIPTION": "Attacks deal !M! more damage for 3 turns. NL Exhaust."
+  },
+  "FakerMod:Chivalry": {
+    "NAME": "Chivalry",
+    "DESCRIPTION": "Every time you play a fakermod:Saber card, gain !M! *Plated *Armor."
+  },
+  "FakerMod:CommandSealCard": {
+    "NAME": "Command Seal",
+    "DESCRIPTION": "Summon fakermod:Saber. NL Choose and add 1 of 4 cards to your hand. NL Set its cost to 0 this turn."
+  },
+  "FakerMod:DragonsCore": {
+    "NAME": "Dragon's Core",
+    "DESCRIPTION": "Add !M! *Buster to your hand. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Add !M! [#78F200]Buster+ to your hand. NL Exhaust."
+  },
+  "FakerMod:Excalibur": {
+    "NAME": "Excalibur",
+    "DESCRIPTION": "Deal !D! damage to NL ALL enemies."
+  },
+  "FakerMod:Instinct": {
+    "NAME": "Instinct",
+    "DESCRIPTION": "Your next attack deals double damage."
+  },
+  "FakerMod:InvisibleAir": {
+    "NAME": "Invisible Air",
+    "DESCRIPTION": "You do not lose orb slots when taking attack damage for 3 turns"
+  },
+  "FakerMod:ManaBurst": {
+    "NAME": "Mana Burst",
+    "DESCRIPTION": "Gain !M! Orb slot for 3 turns. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Gain !M! Orb slots for 3 turns. NL Exhaust."
+  },
+  "FakerMod:ManaTransfer": {
+    "NAME": "Mana Transfer",
+    "DESCRIPTION": "Gain !M! Orb slots."
+  },
+  "FakerMod:SaberArts": {
+    "NAME": "Arts",
+    "DESCRIPTION": "Deal !D! damage and gain !B! Block. NL NL fakermod:First_Command: NL Next turn, gain !M! [E]"
+  },
+  "FakerMod:SaberBuster": {
+    "NAME": "Buster",
+    "DESCRIPTION": "Deal !D! damage. NL NL fakermod:First_Command: NL Attacks deal !M! more damage this turn."
+  },
+  "FakerMod:SaberQuick": {
+    "NAME": "Quick",
+    "DESCRIPTION": "Deal !D! damage. NL NL fakermod:First_Command: NL Next turn, your first attack deals !FakerMod:m2! more damage."
+  },
+  "FakerMod:ShiningPath": {
+    "NAME": "Shining Path",
+    "DESCRIPTION": "Gain 1 Orb slot and shuffle *Excalibur into your draw pile. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Gain 1 Orb slot and shuffle [#78F200]Excalibur+ into your draw pile. NL Exhaust."
+  },
+  "FakerMod:StrikeAir": {
+    "NAME": "Strike Air",
+    "DESCRIPTION": "Deal !D! damage then apply !M! Vulnerable to ALL enemies."
+  },
+  "FakerMod:SummonSaber": {
+    "NAME": "",
+    "DESCRIPTION": "Gain 3 Orb slots. Shuffle 10 fakermod:Saber cards into your draw pile. NL At the start of your turn, fully channel fakermod:AP. NL NL ."
+  },
+
+
+
+
+  "FakerMod:Archery": {
+    "NAME": "Archery",
+    "DESCRIPTION": "Whenever you play !M! Ranged attacks this turn, heal !FakerMod:m2!."
+  },
+  "FakerMod:Avalon": {
+    "NAME": "Avalon",
+    "DESCRIPTION": "Negate ALL damage this turn. If you have fakermod:Saber, heal !FakerMod:m2!. NL Exhaust."
+  },
+  "FakerMod:AzothSword": {
+    "NAME": "Azoth Sword",
+    "DESCRIPTION": "Retain. Exhaust. NL Deal !D! damage. NL Deal !M! more for each unspent energy this combat.",
+    "UPGRADE_DESCRIPTION": "Innate. Retain. Exhaust. NL Deal !D! damage. NL Deal !M! more for each unspent energy this combat."
+  },
+  "FakerMod:BladeBurst": {
+    "NAME": "Blade Burst",
+    "DESCRIPTION": "Deal !D! damage. NL Deal !M! more damage for every fakermod:projected card played this combat."
+  },
+  "FakerMod:BlessedKatana": {
+    "NAME": "Blessed Katana",
+    "DESCRIPTION": "Deal !D! fakermod:true_damage. NL Gain !M! Regen. NL Exhaust."
+  },
+  "FakerMod:Caliburn": {
+    "NAME": "Caliburn",
+    "DESCRIPTION": "Deal !D! damage. NL If you don't have fakermod:Saber, exhaust."
+  },
+  "FakerMod:CursedKatana": {
+    "NAME": "Cursed Katana",
+    "DESCRIPTION": "Lose !M! HP. NL Deal !D! fakermod:true_damage. NL Exhaust."
+  },
+  "FakerMod:Dash": {
+    "NAME": "Dash",
+    "DESCRIPTION": "Draw !M!."
+  },
+  "FakerMod:DestructiveKatana": {
+    "NAME": "Destructive Katana",
+    "DESCRIPTION": "Exhaust a random card in your draw pile. NL Deal !D! fakermod:true_damage."
+  },
+  "FakerMod:DoubleLinkedCraneWings": {
+    "NAME": "Double-Linked\n Crane Wings",
+    "DESCRIPTION": "fakermod:Project !M! *Kanshou [#efc851]& *Bakuya.",
+    "UPGRADE_DESCRIPTION": "fakermod:Project !M! *Kanshou [#efc851]& *Bakuya."
+  },
+  "FakerMod:FollowUpStrike": {
+    "NAME": "Follow-Up Strike",
+    "DESCRIPTION": "Deal !D! damage. NL Gain !M! Thorns and draw 1."
+  },
+  "FakerMod:Forge": {
+    "NAME": "Forge",
+    "DESCRIPTION": "Exhaust a card in your hand. NL Create a random Katana card."
+  },
+  "FakerMod:GlassHeart": {
+    "NAME": "Glass Heart",
+    "DESCRIPTION": "Gain !FakerMod:m2! of Strength and Frail.",
+    "UPGRADE_DESCRIPTION": "Gain !FakerMod:m2! Strength."
+  },
+  "FakerMod:Incantation": {
+    "NAME": "Incantation",
+    "DESCRIPTION": "fakermod:Chant. NL fakermod:Echo [#efc851]Trace, *Fractal.",
+    "EXTENDED_DESCRIPTION":[
+      "I am the bone of my sword.",
+      "Steel is my body and fire is my blood.",
+      "I have created over a thousand blades.",
+
+      "Unaware of loss. NL Nor aware of gain.",
+      "Withstood pain to create weapons, waiting for one's arrival.",
+      "I have no regrets. This is the only path.",
+
+      "Unaware of beginning.\nNor aware of the end.",
+      "Withstood pain with inconsistent weapons, my hands will never hold anything.",
+      "Yet, my flame never ends.",
+
+      "Unknown to Death.\nNor known to Life.",
+      "Have withstood pain to create many weapons",
+      "Yet, those hands will never hold anything ",
+
+      "Once seeking for the ultimate blade.",
+      "A blade of steel cutting no flesh, nor bones and neither life.",
+      "What I seek for is the clearance of resentment.",
+      "The cutting of bonds, fate and destiny.\nThat is, to free oneself from Karma.",
+      "Upon one's arrival are countless tools.\nCarved over a thousand blades, forming a pile of swords.",
+      "My whole life was for this single swing."
+    ]
+  },
+  "FakerMod:IndependentAction": {
+    "NAME": "Independent Action",
+    "DESCRIPTION": "Half your HP. Heal 50% of the damage dealt with fakermod:Melee attacks for this turn. NL Enter fakermod:Melee. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Half your HP. Heal 50% of the damage dealt with fakermod:Melee attacks for !M! turns. Enter fakermod:Melee. NL Exhaust."
+  },
+  "FakerMod:LastStand": {
+    "NAME": "Last Stand",
+    "DESCRIPTION": "Lose 3 HP. NL Add *Strike to your hand. NL *Strikes deal double damage for 3 turns.",
+    "UPGRADE_DESCRIPTION": "Lose 3 HP. NL Add *Strike to your hand. NL *Strikes deal triple damage for 3 turns."
+  },
+  "FakerMod:LinkShot": {
+    "NAME": "Link Shot",
+    "DESCRIPTION": "Deal !D! damage. NL If the enemy *does *not *intend to attack, apply !M! Vulnerable."
+  },
+  "FakerMod:Lunch": {
+    "NAME": "Lunch",
+    "DESCRIPTION": "Ethereal. NL Heal !M!. NL Exhaust."
+  },
+  "FakerMod:ManaLink": {
+    "NAME": "Mana Link",
+    "DESCRIPTION": "Gain X [E] for !M! turn. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Next turn, gain X [E] for !M! turns. NL Exhaust."
+  },
+  "FakerMod:MapoTofu": {
+    "NAME": "Mapo Tofu",
+    "DESCRIPTION": "Ethereal. NL Heal !M!. Shuffle 1 *Burn into your draw pile."
+  },
+  "FakerMod:MetalShield": {
+    "NAME": "Metal Shield",
+    "DESCRIPTION": "Can only be played if you have no Block. NL Gain !B! Block. NL You cannot gain Block this turn."
+  },
+  "FakerMod:MetalSword": {
+    "NAME": "Metal Sword",
+    "DESCRIPTION": "Deal !D! damage. NL Draw !M! Attack card."
+  },
+  "FakerMod:MightyChain": {
+    "NAME": "Mighty Chain",
+    "DESCRIPTION": "Add 0-cost *Quick, *Arts and *Buster to your hand. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Add 0-cost [#78F200]Quick+, [#78F200]Arts+ and [#78F200]Buster+ to your hand. NL Exhaust."
+  },
+  "FakerMod:MindsEye": {
+    "NAME": "Mind's Eye",
+    "DESCRIPTION": "Add a card from your draw pile to your hand. NL Enter fakermod:Range. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Enter fakermod:Range. NL Add a card from your draw pile to your hand."
+  },
+  "FakerMod:MyoujingiriMuramasa": {
+    "NAME": "Myoujingiri Muramasa",
+    "DESCRIPTION": "Deal !D! fakermod:true_damage. NL Deal !M! more for every exhausted card this combat.",
+    "UPGRADE_DESCRIPTION": "On *Exhaust, return this to your hand. NL Deal !D! fakermod:true_damage. Deal !M! more for every exhausted card this combat."
+  },
+  "FakerMod:NineLivesBladeWorks": {
+    "NAME": "Nine Lives Blade Works",
+    "DESCRIPTION": "Exhaust your hand. NL fakermod:Project a 0-cost NL *Nine *Lives. NL *Magic *Circuits reduces cost by 1 per stack.",
+    "UPGRADE_DESCRIPTION": "Exhaust your hand. NL fakermod:Project a 0-cost NL [#78F200]Nine [#78F200]Lives+. NL *Magic *Circuits reduces cost by 1 per stack."
+  },
+  "FakerMod:OriginlessCreationOfSwords": {
+    "NAME": "Originless Creation\n        of Swords",
+    "DESCRIPTION": "Exhaust your discard pile. Create *Tsumukari *Muramasa in your hand. NL Exhaust."
+  },
+  "FakerMod:PaperShield": {
+    "NAME": "Paper Shield",
+    "DESCRIPTION": "Gain !B! Block. Exhaust."
+  },
+  "FakerMod:PaperSword": {
+    "NAME": "Paper Sword",
+    "DESCRIPTION": "Deal !D! damage. NL When you deal damage, change your enemy's intent. NL Exhaust."
+  },
+  "FakerMod:PurifyingKatana": {
+    "NAME": "Purifying Katana",
+    "DESCRIPTION": "Exhaust a random card in your discard pile. NL Deal !D! fakermod:true_damage. NL Remove all your debuffs."
+  },
+  "FakerMod:Recollection": {
+    "NAME": "Recollection",
+    "DESCRIPTION": "Draw !M!.",
+    "UPGRADE_DESCRIPTION": "Draw !M!. NL fakermod:Alter into *Ideals."
+  },
+  "FakerMod:RapidStrike": {
+    "NAME": "Rapid Strike",
+    "DESCRIPTION": "Deal !D! damage. NL Costs 0 if you used a *Strike his combat."
+  },
+  "FakerMod:Reload": {
+    "NAME": "Reload",
+    "DESCRIPTION": "Exhaust your hand then draw that many. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Retain. NL Exhaust your hand then draw that many. NL Exhaust."
+  },
+  "FakerMod:Strengthen": {
+    "NAME": "Strengthen",
+    "DESCRIPTION": "Upgrade a card in your hand for the rest of combat.",
+    "UPGRADE_DESCRIPTION": "Upgrade all cards in your hand for the rest of combat."
+  },
+  "FakerMod:SteelBody": {
+    "NAME": "Steel Body",
+    "DESCRIPTION": "Gain !B! Block and NL !M! Thorns."
+  },
+  "FakerMod:SwordBarrel": {
+    "NAME": "Sword Barrel",
+    "DESCRIPTION": "Gain !M! fakermod:Endurance: NL When you play a Skill, fakermod:project *Blade *Dance.",
+    "UPGRADE_DESCRIPTION": "Gain !M! fakermod:Endurance: NL When you play a Skill, fakermod:project [#78F200]Blade [#78F200]Dance+."
+  },
+  "FakerMod:Trace": {
+    "NAME": "Trace",
+    "DESCRIPTION": "fakermod:Project a card."
+  },
+  "FakerMod:TraceFractal": {
+    "NAME": "Trace, Fractal",
+    "DESCRIPTION": "fakermod:Project an uncommon card.",
+    "UPGRADE_DESCRIPTION": "fakermod:Project an uncommon card. NL Set its cost to 0 for this turn."
+  },
+  "FakerMod:TraceOn": {
+    "NAME": "Trace On",
+    "DESCRIPTION": "Gain fakermod:Magic_Circuits (1/5). NL *Trace fakermod:projects [#78F200]common+ cards.",
+    "EXTENDED_DESCRIPTION": [
+      "Gain fakermod:Magic_Circuits (2/5). NL *Trace fakermod:projects [#78F200]common+ and uncommon cards. NL Can be upgraded.",
+      "Gain fakermod:Magic_Circuits (3/5). NL *Trace fakermod:projects [#78F200]common+ and uncommon cards. NL Can be upgraded.",
+      "Gain fakermod:Magic_Circuits (4/5). NL *Trace fakermod:projects [#78F200]common+, [#78F200]uncommon+ and rare cards. NL Can be upgraded.",
+      "Gain fakermod:Magic_Circuits (5/5). NL *Trace fakermod:projects [#78F200]common+, [#78F200]uncommon+ and [#78F200]rare+ cards."
+    ]
+  },
+  "FakerMod:TriggerOff": {
+    "NAME": "Trigger Off",
+    "DESCRIPTION": "Whenever you play a fakermod:projected card, gain fakermod:Magic_Circuits (1/5)."
+  },
+  "FakerMod:TrapShot": {
+    "NAME": "Trap Shot",
+    "DESCRIPTION": "Deal !D! damage. NL If the enemy *intends to attack, apply !M! Weak."
+  },
+  "FakerMod:TripleLinkedCraneWings": {
+    "NAME": "Triple-Linked\n Crane Wings",
+    "DESCRIPTION": "fakermod:Project !M! NL *Kanshou [#efc851]& *Bakuya.",
+    "UPGRADE_DESCRIPTION": "fakermod:Project !M! NL *Kanshou [#efc851]& *Bakuya and !D! NL *Kanshou [#efc851]& *Bakuya *Overedge."
+  },
+  "FakerMod:WithstandPain": {
+    "NAME": "Withstand Pain",
+    "DESCRIPTION": "Gain !M! fakermod:Endurance. NL Whenever you lose HP, fakermod:project *Sword.",
+    "UPGRADE_DESCRIPTION": "Gain !M! fakermod:Endurance. NL Whenever you lose HP, fakermod:project [#78F200]Sword+"
+  }
+}
