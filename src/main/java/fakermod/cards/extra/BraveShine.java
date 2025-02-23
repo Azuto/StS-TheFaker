@@ -55,8 +55,6 @@ public class BraveShine extends AbstractEasyCard {
     public void triggerWhenDrawn() {
         flash();
         this.addToTop(new ChangeImageAction());
-        AbstractDungeon.topLevelEffects.add(new PurgeCardEffect(this, Settings.WIDTH / 2F, Settings.HEIGHT / 2F));
-        this.addToTop(new PurgeCardAction(this));
         this.addToBot(new GainEnergyAction(secondMagic));
         this.applyIncantationOrTraceOn();
     }

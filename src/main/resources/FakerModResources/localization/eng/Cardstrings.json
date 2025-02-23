@@ -24,12 +24,12 @@
 
   "${ModID}:Arrival": {
     "NAME": "Arrival",
-    "DESCRIPTION": "Unplayable. NL When drawn, gain NL !M! of Strength and Dexterity then fakermod:purge."
+    "DESCRIPTION": "Unplayable. NL When drawn, gain NL !M! of Strength and Dexterity."
   },
   "${ModID}:BraveShine": {
     "NAME": "Brave Shine",
-    "DESCRIPTION": "Unplayable. NL When drawn, NL gain [E] [E] NL fakermod:Echo *Incantation then fakermod:purge.",
-    "UPGRADE_DESCRIPTION": "Unplayable. NL When drawn, NL gain [E] [E] NL fakermod:Echo *Trace *On then fakermod:purge."
+    "DESCRIPTION": "Unplayable. NL When drawn, NL gain [E] [E] NL fakermod:Echo *Incantation.",
+    "UPGRADE_DESCRIPTION": "Unplayable. NL When drawn, NL gain [E] [E] NL fakermod:Echo *Trace *On."
   },
   "${ModID}:Disillusion": {
     "NAME": "disillusion",
@@ -37,7 +37,7 @@
   },
   "${ModID}:ExtraAttack": {
     "NAME": "Extra Attack",
-    "DESCRIPTION": "Ethereal. NL Deal !D! damage. NL Gain !M! of Dexterity and Strength. NL fakermod:Purge."
+    "DESCRIPTION": "Ethereal. NL Deal !D! damage. NL Gain !M! Dexterity. NL fakermod:Purge."
   },
   "${ModID}:GradationAir": {
     "NAME": "Gradation Air",
@@ -63,7 +63,7 @@
   },
   "${ModID}:LastStardust": {
     "NAME": "Last Stardust",
-    "DESCRIPTION": "Unplayable. NL When drawn, gain NL !M! Strength and heal !${ModID}:m2! then fakermod:purge."
+    "DESCRIPTION": "Unplayable. NL When drawn, gain NL !M! Strength and heal !${ModID}:m2!."
   },
   "${ModID}:MindOfSteel": {
     "NAME": "Mind of Steel",
@@ -177,7 +177,7 @@
   },
   "${ModID}:ProjectedExcalibur": {
     "NAME": "Excalibur",
-    "DESCRIPTION": "fakermod:Projected & Retain. NL Deal !D! damage to ALL enemies. NL If you don't have fakermod:Saber, die."
+    "DESCRIPTION": "fakermod:Projected & Retain. NL Deal !D! damage to ALL enemies. NL If you don't have fakermod:Saber, die next turn."
   },
   "${ModID}:RhoAias": {
     "NAME": "Rho Aias",
@@ -323,8 +323,8 @@
   },
   "${ModID}:GlassHeart": {
     "NAME": "Glass Heart",
-    "DESCRIPTION": "Gain ${ModID}:m2! of Strength and Frail.",
-    "UPGRADE_DESCRIPTION": "Gain ${ModID}:m2! Strength."
+    "DESCRIPTION": "Gain !${ModID}:m2! of Strength and Frail.",
+    "UPGRADE_DESCRIPTION": "Gain !${ModID}:m2! Strength."
   },
   "${ModID}:Incantation": {
     "NAME": "Incantation",

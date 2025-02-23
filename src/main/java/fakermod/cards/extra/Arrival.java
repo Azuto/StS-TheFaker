@@ -32,8 +32,6 @@ public class Arrival extends AbstractEasyCard {
     public void triggerWhenDrawn() {
         flash();
         AbstractPlayer p = AbstractDungeon.player;
-        AbstractDungeon.topLevelEffects.add(new PurgeCardEffect(this, Settings.WIDTH / 2F, Settings.HEIGHT / 2F));
-        this.addToTop(new PurgeCardAction(this));
         this.addToBot(new ApplyPowerAction(p, p, new StrengthPower(p, magicNumber), magicNumber));
         this.addToBot(new ApplyPowerAction(p, p, new DexterityPower(p, magicNumber), magicNumber));
     }

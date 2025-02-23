@@ -10,6 +10,7 @@ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.powers.RegenPower;
 import com.megacrit.cardcrawl.vfx.combat.MindblastEffect;
+import com.megacrit.cardcrawl.vfx.combat.SmallLaserEffect;
 import fakermod.stances.RangedStance;
 import fakermod.tags.customTag;
 
@@ -44,7 +45,7 @@ public class BlessedKatana extends AbstractEasyCard {
     }
 
     public void use(AbstractPlayer p, AbstractMonster m) {
-        this.addToBot(new VFXAction(p, new MindblastEffect(p.dialogX, p.dialogY, p.flipHorizontal), 0.1F));
+        this.addToBot(new VFXAction(p, new SmallLaserEffect(p.dialogX, p.dialogY, this.hb.cX, this.hb.cY), 0.1F));
         this.addToBot(new DamageAction(m, new DamageInfo(p, damage, DamageInfo.DamageType.HP_LOSS), AbstractGameAction.AttackEffect.NONE));
         this.addToBot((new ApplyPowerAction(p, p, new RegenPower(p, magicNumber))));
     }

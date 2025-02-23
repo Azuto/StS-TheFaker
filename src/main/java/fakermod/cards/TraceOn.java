@@ -40,20 +40,6 @@ public class TraceOn extends AbstractEasyCard {
         }
     }
 
-    public boolean canUse(AbstractPlayer p, AbstractMonster m) {
-        boolean canUse = super.canUse(p, m);
-        if (!canUse) {
-            return false;
-
-        } else if (p.hasPower("FakerMod:TriggerOffPower")) {
-            cantUseMessage = "'Trigger, Off' is active.";
-            return false;
-
-        } else {
-            return true;
-        }
-    }
-
     @Override
     public boolean canUpgrade() {
         return this.timesUpgraded < 4;
