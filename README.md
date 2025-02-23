@@ -1,4 +1,5 @@
 **Slay the Spire - The Faker** 
+
 *A young man who strives to become a Hero of Justice.
 Conflicted between ideals and hypocrisy, only one Fate awaits as he steps into the Spire.*
 
