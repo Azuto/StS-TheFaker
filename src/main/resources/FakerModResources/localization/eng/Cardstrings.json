@@ -214,7 +214,7 @@
   },
   "${ModID}:CommandSealCard": {
     "NAME": "Command Seal",
-    "DESCRIPTION": "Summon fakermod:Saber. NL Choose and add 1 of 4 cards to your hand. NL Set its cost to 0 this turn."
+    "DESCRIPTION": "Summon fakermod:Saber if you haven't. NL Choose and add 1 of 4 cards to your hand. NL Set its cost to 0 this turn."
   },
   "${ModID}:DragonsCore": {
     "NAME": "Dragon's Core",
@@ -235,12 +235,13 @@
   },
   "${ModID}:ManaBurst": {
     "NAME": "Mana Burst",
-    "DESCRIPTION": "Gain !M! Orb slot for 3 turns. NL Exhaust.",
-    "UPGRADE_DESCRIPTION": "Gain !M! Orb slots for 3 turns. NL Exhaust."
+    "DESCRIPTION": "Gain !M! Orb slot for NL 3 turns. Channel !M! AP. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Gain !M! Orb slots for NL 3 turns. Channel !M! AP. NL Exhaust."
   },
   "${ModID}:ManaTransfer": {
     "NAME": "Mana Transfer",
-    "DESCRIPTION": "Gain !M! Orb slots."
+    "DESCRIPTION": "Gain X Orb slots.",
+    "UPGRADE_DESCRIPTION": "Gain X + !M! Orb slots."
   },
   "${ModID}:SaberArts": {
     "NAME": "Arts",
@@ -265,7 +266,7 @@
   },
   "${ModID}:SummonSaber": {
     "NAME": "",
-    "DESCRIPTION": "Gain 3 Orb slots. Shuffle 10 fakermod:Saber cards into your draw pile. NL At the start of your turn, fully channel fakermod:AP. NL NL ."
+    "DESCRIPTION": "Gain 3 Orb slots. NL Shuffle 10 fakermod:Saber cards into your draw pile. NL At the start of your turn, fully channel fakermod:AP and draw 3. NL NL ."
   },
 
 

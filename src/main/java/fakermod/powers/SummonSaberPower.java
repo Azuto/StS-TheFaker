@@ -1,10 +1,12 @@
 package fakermod.powers;
 
+import basemod.devcommands.draw.Draw;
 import basemod.interfaces.CloneablePowerInterface;
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.graphics.g2d.TextureAtlas;
+import com.megacrit.cardcrawl.actions.common.DrawCardAction;
 import com.megacrit.cardcrawl.actions.common.RemoveSpecificPowerAction;
 import com.megacrit.cardcrawl.actions.defect.DecreaseMaxOrbAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
@@ -64,6 +66,7 @@ public class SummonSaberPower extends AbstractPower implements CloneablePowerInt
         }
 
         this.addToBot(new ChangeImageAction());
+        this.addToBot(new DrawCardAction(3));
         for (int i = 0; i < p.maxOrbs; i++){
             if (p.hasEmptyOrb()) {
                 p.channelOrb(new AP());

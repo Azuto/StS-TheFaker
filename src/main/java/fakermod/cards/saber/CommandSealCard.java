@@ -57,21 +57,21 @@ public class CommandSealCard extends AbstractEasyCard {
         AbstractPlayer p = AbstractDungeon.player;
         for (AbstractCard c : p.hand.group) {
             if (c.cardID.equals("FakerMod:SummonSaber")) {
-                p.hand.removeCard(c);
+                p.hand.moveToExhaustPile(c);
                 break;
             }
         }
 
         for (AbstractCard c : p.drawPile.group) {
             if (c.cardID.equals("FakerMod:SummonSaber")) {
-                p.drawPile.removeCard(c);
+                p.drawPile.moveToExhaustPile(c);
                 break;
             }
         }
 
         for (AbstractCard c : p.discardPile.group) {
             if (c.cardID.equals("FakerMod:SummonSaber")) {
-                p.discardPile.removeCard(c);
+                p.discardPile.moveToExhaustPile(c);
                 break;
             }
         }
@@ -83,12 +83,15 @@ public class CommandSealCard extends AbstractEasyCard {
             p.channelOrb(new AP());
         }
 
-        this.addToTop(new ApplyPowerAction(p, p, new SummonSaberPower(p, p, 1)));
-        this.addToBot(new ChangeImageAction());
-        removeSaber();
-        addCards();
-        addSkills();
-        p.drawPile.shuffle();
+        if (!p.hasPower("FakerMod:SummonSaberPower")) {
+            this.addToTop(new ApplyPowerAction(p, p, new SummonSaberPower(p, p, 1)));
+            this.addToBot(new ChangeImageAction());
+            removeSaber();
+            addCards();
+            addSkills();
+            p.drawPile.shuffle();
+        }
+
         this.addToBot(new CommandSealAction());
     }
 

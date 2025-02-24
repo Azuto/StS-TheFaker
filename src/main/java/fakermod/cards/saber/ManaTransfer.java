@@ -15,11 +15,11 @@ import static fakermod.ModFile.makeID;
 
 public class ManaTransfer extends AbstractEasyCard {
     public final static String ID = makeID("ManaTransfer");
-    private static final int AP_COST = 2;
+    private static final int AP_COST = -1;
 
     public ManaTransfer() {
-        super(ID, AP_COST, CardType.SKILL, CardRarity.SPECIAL, CardTarget.NONE, CharacterFile.Enums.FAKERS_COLOR);
-        baseMagicNumber = magicNumber = 2;
+        super(ID, -1, CardType.SKILL, CardRarity.SPECIAL, CardTarget.NONE, CharacterFile.Enums.FAKERS_COLOR);
+        baseMagicNumber = magicNumber = 0;
         tags.add(customTag.SABER);
         setDisplayRarity(CardRarity.UNCOMMON);
     }
@@ -31,17 +31,8 @@ public class ManaTransfer extends AbstractEasyCard {
     public void updateCost(int amt) { }
 
     @Override
-    public void applyPowers() {
-        int originalCost = this.cost;
-        super.applyPowers();
-        this.cost = originalCost;
-        this.isCostModified = false;
-    }
-
-    @Override
     public boolean hasEnoughEnergy() {
-        return AbstractDungeon.player.hasPower(makeID("SummonSaberPower")) && costForTurn == 0
-                || AbstractDungeon.player.filledOrbCount() >= AP_COST;
+        return AbstractDungeon.player.hasPower(makeID("SummonSaberPower"));
     }
 
     @Override
@@ -51,26 +42,19 @@ public class ManaTransfer extends AbstractEasyCard {
             return false;
         }
 
-        if (costForTurn > 0 && p.filledOrbCount() < AP_COST) {
-            cantUseMessage = "I don't have enough AP.";
-            return false;
-        }
-
         return true;
     }
 
     public void use(AbstractPlayer p, AbstractMonster m) {
-        int tempCost = Math.min(EnergyPanel.totalCount, AP_COST);
-        if (costForTurn > 0) { p.evokeOrb(); }
-        if (costForTurn <= 0) { tempCost = 0; }
-        for (int i = 0; i < magicNumber; i++){
-            addToBot(new IncreaseMaxOrbAction(1));
+        int tempCost = Math.min(EnergyPanel.totalCount, energyOnUse);
+        if (energyOnUse > 0) { p.evokeOrb(); }
+        if (energyOnUse <= 0) { tempCost = 0; }
+        for (int i = 0; i < energyOnUse + magicNumber; i++){
+            this.addToBot(new IncreaseMaxOrbAction(1));
         }
         for (int i = 0; i < tempCost - 1 ; i++) {
             p.removeNextOrb();
         }
-
-        this.addToTop(new GainEnergyAction(tempCost));
     }
 
     public AbstractCard makeCopy() {

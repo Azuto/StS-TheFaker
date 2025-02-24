@@ -1,12 +1,14 @@
 package fakermod.cards.saber;
 
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
+import com.megacrit.cardcrawl.actions.defect.ChannelAction;
 import com.megacrit.cardcrawl.actions.defect.IncreaseMaxOrbAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import fakermod.CharacterFile;
 import fakermod.cards.AbstractEasyCard;
+import fakermod.orbs.AP;
 import fakermod.powers.ManaBurstPower;
 import fakermod.tags.customTag;
 
@@ -39,8 +41,11 @@ public class ManaBurst extends AbstractEasyCard {
     }
 
     public void use(AbstractPlayer p, AbstractMonster m) {
-        this.addToBot(new ApplyPowerAction(p, p, new ManaBurstPower(p, p, secondMagic, magicNumber)));
-        this.addToBot(new IncreaseMaxOrbAction(magicNumber));
+        this.addToTop(new ApplyPowerAction(p, p, new ManaBurstPower(p, p, secondMagic, magicNumber)));
+        this.addToTop(new IncreaseMaxOrbAction(magicNumber));
+        for (int i = 0; i < magicNumber; i++) {
+            p.channelOrb(new AP());
+        }
     }
 
     public AbstractCard makeCopy() {

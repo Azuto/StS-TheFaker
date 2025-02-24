@@ -23,7 +23,7 @@ public class CommandSeal extends AbstractEasyRelic implements ClickableRelic {
     public CommandSeal() {
         super(ID, RelicTier.SPECIAL, LandingSound.MAGICAL, CharacterFile.Enums.FAKER_COLOR);
         tips.add(new CardPowerTip(card));
-        counter = 3;
+        this.counter = 3;
     }
 
 
@@ -33,16 +33,16 @@ public class CommandSeal extends AbstractEasyRelic implements ClickableRelic {
 
     @Override
     public void onRightClick() {
-        if (isPlayerTurn && !usedThisTurn && counter != 0 && AbstractDungeon.getCurrRoom().phase == AbstractRoom.RoomPhase.COMBAT) {
+        if (this.isPlayerTurn && !this.usedThisTurn && this.counter != 0 && AbstractDungeon.getCurrRoom().phase == AbstractRoom.RoomPhase.COMBAT) {
             flash();
             stopPulse();
             addToBot(new MakeTempCardInHandAction(new CommandSealCard(), 1));
 
-            counter--;
-            usedThisTurn = true;
+            this.counter--;
+            this.usedThisTurn = true;
             if (this.counter == 0) {
                 this.setCounter(-2);
-                this.description = this.DESCRIPTIONS[1];
+                this.description = this.DESCRIPTIONS[3];
                 this.tips.clear();
                 this.tips.add(new PowerTip(this.name, this.description));
                 this.initializeTips();
@@ -59,30 +59,30 @@ public class CommandSeal extends AbstractEasyRelic implements ClickableRelic {
 
     @Override
     public void atPreBattle() {
-        if (counter > 0) {
-            usedThisTurn = false;
+        if (this.counter > 0) {
+            this.usedThisTurn = false;
         }
     }
 
     @Override
     public void atBattleStart() {
-        if (counter > 0) {
-            usedThisTurn = false;
+        if (this.counter > 0) {
+            this.usedThisTurn = false;
             this.addToBot(new MakeTempCardInDrawPileAction(new SummonSaber(), 1, true, false));
         }
     }
 
     @Override
     public void atTurnStart() {
-        if (counter > 0) {
-            isPlayerTurn = true;
+        if (this.counter > 0) {
+            this.isPlayerTurn = true;
             beginPulse();
         }
     }
 
     @Override
     public void onPlayerEndTurn() {
-        isPlayerTurn = false;
+        this.isPlayerTurn = false;
         stopPulse();
     }
 
