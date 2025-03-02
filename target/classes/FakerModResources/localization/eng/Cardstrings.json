@@ -55,7 +55,7 @@
   },
   "FakerMod:InstallArcher": {
     "NAME": "",
-    "DESCRIPTION": "Gain !M! fakermod:Endurance. NL NL Lose 3 Max HP. NL At the start of your turn, add *Gradation *Air to your hand. NL Retain.",
+    "DESCRIPTION": "Gain !M! fakermod:Endurance. NL NL Lose 1 Max HP. NL At the start of your turn, add *Gradation *Air to your hand. NL Retain.",
     "EXTENDED_DESCRIPTION": [
       "Install.",
       "This would kill me."

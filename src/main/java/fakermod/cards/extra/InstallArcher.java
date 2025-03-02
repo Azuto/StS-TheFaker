@@ -42,7 +42,7 @@ public class InstallArcher extends AbstractEasyCard {
     }
 
     public boolean canUse(AbstractPlayer p, AbstractMonster m) {
-        if(p.maxHealth <= 2) {
+        if(p.maxHealth <= 1) {
             cantUseMessage = VERSE[1];
             return false;
 
@@ -53,7 +53,7 @@ public class InstallArcher extends AbstractEasyCard {
 
     public void use(AbstractPlayer p, AbstractMonster m) {
         this.addToBot(new TalkAction(true, VERSE[0], 3.0f, 2.0f));
-        p.decreaseMaxHealth(2);
+        p.decreaseMaxHealth(1);
         this.addToBot(new ApplyPowerAction(p, p, new InstallArcherPower(p, p, baseMagicNumber), baseMagicNumber));
         this.addToBot(new MakeTempCardInHandAction(new GradationAir(), 1));
         this.addToBot(new ChangeImageAction());

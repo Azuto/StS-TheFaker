@@ -26,7 +26,7 @@ public class TripleLinkedCraneWings extends AbstractEasyCard {
     public void use(AbstractPlayer p, AbstractMonster m) {
         this.addToBot(new MakeTempCardInHandAction(new KanshouBakuya(), magicNumber));
         if (upgraded) {
-            this.addToBot(new MakeTempCardInHandAction(new KanshouBakuyaOveredge(), damage));
+            this.addToBot(new MakeTempCardInHandAction(new KanshouBakuyaOveredge(), magicNumber));
         }
     }
 

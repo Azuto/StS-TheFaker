@@ -27,6 +27,7 @@ public class ProjectedExcalibur extends AbstractEasyCard {
         super(ID, 3, CardType.ATTACK, CardRarity.SPECIAL, CardTarget.ALL_ENEMY, CharacterFile.Enums.FAKERP_COLOR);
         baseDamage = 40;
         purgeOnUse = true;
+        retain = true;
         cardsToPreview = new SummonSaber();
         tags.add(customTag.PROJECTION);
         tags.add(customTag.SABER);
