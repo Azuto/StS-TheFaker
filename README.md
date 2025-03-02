@@ -16,7 +16,8 @@ Currently featuring 101 cards, 4 relics, 1 event, and 2 elite monsters, this mod
 - **True damage**: Deal Block-ignoring damage
 - **Melee stance**: Deal more damage with melee cards the less HP you are at
 - **Range stance**: Range cards have HP cost instead of energy now
-[Full item list](https://docs.google.com/spreadsheets/d/17W0CJxNTdeWu1sGtybDUGhs0X186aI2OV16iOyGpD5o)
+
+[Card List](https://docs.google.com/spreadsheets/d/17W0CJxNTdeWu1sGtybDUGhs0X186aI2OV16iOyGpD5o/edit?gid=500505640#gid=500505640)
 [Github](https://github.com/Azuto/StS-TheFaker)
 
 Special thanks to DarkVexon for the StS ProTemplate: https://github.com/DarkVexon/ProTemplate
