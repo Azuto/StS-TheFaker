@@ -18,6 +18,7 @@ Currently featuring 101 cards, 4 relics, 1 event, and 2 elite monsters, this mod
 - **Range stance**: Range cards have HP cost instead of energy now
 
 [Card List](https://docs.google.com/spreadsheets/d/17W0CJxNTdeWu1sGtybDUGhs0X186aI2OV16iOyGpD5o/edit?gid=500505640#gid=500505640)
+
 [Github](https://github.com/Azuto/StS-TheFaker)
 
 Special thanks to DarkVexon for the StS ProTemplate: https://github.com/DarkVexon/ProTemplate
